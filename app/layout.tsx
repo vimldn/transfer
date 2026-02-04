@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Script from 'next/script'
 import './globals.css'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: {
@@ -49,9 +50,15 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="flex items-center justify-between h-16">
               <Link href="/" className="flex items-center gap-2">
-                <div className="w-10 h-10 bg-gradient-to-br from-emerald-500 to-emerald-700 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">T</span>
-                </div>
+                <Image
+  src="/logo-256.png"
+  alt="Transfer.co.ke logo"
+  width={40}
+  height={40}
+  priority
+  className="rounded-xl"
+/>
+
                 <div className="hidden sm:block">
                   <span className="font-bold text-lg">Transfer</span>
                   <span className="text-emerald-400 font-bold text-lg">.co.ke</span>
