@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
 import { blogPosts } from '@/lib/blog-data'
-import { ArrowRight, BookOpen, Search } from 'lucide-react'
+import { ArrowRight, BookOpen } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Blog - Kenya Tax, PAYE, NSSF & Financial Guides',
@@ -12,10 +12,8 @@ export const metadata: Metadata = {
   }
 }
 
-// Get unique categories
 const categories = Array.from(new Set(blogPosts.map(post => post.category)))
 
-// Category colors
 const categoryColors: Record<string, string> = {
   'Tax': 'bg-blue-500/20 text-blue-400 border-blue-500/30',
   'Salary': 'bg-green-500/20 text-green-400 border-green-500/30',
@@ -27,10 +25,10 @@ const categoryColors: Record<string, string> = {
   'Tax Relief': 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30',
   'HELB': 'bg-teal-500/20 text-teal-400 border-teal-500/30',
   'KRA': 'bg-indigo-500/20 text-indigo-400 border-indigo-500/30',
+  'Transfer': 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30',
 }
 
 export default function BlogPage() {
-  // Featured posts (first 3)
   const featuredPosts = blogPosts.slice(0, 3)
   const otherPosts = blogPosts.slice(3)
 
@@ -42,7 +40,6 @@ export default function BlogPage() {
           <div className="absolute top-20 left-10 w-72 h-72 bg-emerald-500/10 rounded-full blur-3xl" />
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-emerald-600/10 rounded-full blur-3xl" />
         </div>
-
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex items-center gap-2 mb-4">
             <BookOpen className="w-6 h-6 text-emerald-400" />
@@ -62,7 +59,7 @@ export default function BlogPage() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-wrap gap-2">
             {categories.map(category => (
-              <span 
+              <span
                 key={category}
                 className={`px-4 py-2 rounded-full text-sm font-medium border ${categoryColors[category] || 'bg-stone-500/20 text-stone-400 border-stone-500/30'}`}
               >
@@ -82,13 +79,28 @@ export default function BlogPage() {
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className={`group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/10 overflow-hidden hover:border-emerald-500/50 transition-all ${index === 0 ? 'md:col-span-2 md:row-span-2' : ''}`}
+                className={`group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/10 overflow-hidden hover:border-emerald-500/50 transition-all ${index === 0 ? 'md:col-span-2' : ''}`}
               >
+                {/* Featured Image */}
+                {post.featuredImage ? (
+                  <div className={`w-full overflow-hidden ${index === 0 ? 'h-52' : 'h-40'} bg-stone-800`}>
+                    <img
+                      src={post.featuredImage}
+                      alt={post.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                ) : (
+                  <div className={`w-full flex items-center justify-center ${index === 0 ? 'h-52' : 'h-40'} bg-gradient-to-br from-emerald-900/40 to-stone-800/60`}>
+                    <span className="text-4xl">💰</span>
+                  </div>
+                )}
+
                 <div className="p-6">
                   <span className={`inline-block px-3 py-1 rounded-full text-xs font-medium border mb-4 ${categoryColors[post.category] || 'bg-stone-500/20 text-stone-400 border-stone-500/30'}`}>
                     {post.category}
                   </span>
-                  <h3 className={`font-bold text-white mb-3 group-hover:text-emerald-400 transition-colors ${index === 0 ? 'text-2xl md:text-3xl' : 'text-xl'}`}>
+                  <h3 className={`font-bold text-white mb-3 group-hover:text-emerald-400 transition-colors ${index === 0 ? 'text-2xl' : 'text-xl'}`}>
                     {post.title}
                   </h3>
                   <p className={`text-stone-400 mb-4 ${index === 0 ? 'text-base line-clamp-3' : 'text-sm line-clamp-2'}`}>
@@ -114,20 +126,37 @@ export default function BlogPage() {
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/10 p-6 hover:border-emerald-500/50 transition-all"
+                className="group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/10 overflow-hidden hover:border-emerald-500/50 transition-all"
               >
-                <span className={`inline-block px-3 py-1 rounded-full text-xs font-medium border mb-3 ${categoryColors[post.category] || 'bg-stone-500/20 text-stone-400 border-stone-500/30'}`}>
-                  {post.category}
-                </span>
-                <h3 className="text-lg font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors line-clamp-2">
-                  {post.title}
-                </h3>
-                <p className="text-stone-400 text-sm mb-4 line-clamp-2">
-                  {post.metaDescription}
-                </p>
-                <div className="flex items-center gap-2 text-emerald-400 text-sm font-medium">
-                  Read Article
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                {/* Thumbnail */}
+                {post.featuredImage ? (
+                  <div className="w-full h-40 overflow-hidden bg-stone-800">
+                    <img
+                      src={post.featuredImage}
+                      alt={post.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                ) : (
+                  <div className="w-full h-40 flex items-center justify-center bg-gradient-to-br from-emerald-900/40 to-stone-800/60">
+                    <span className="text-3xl">💰</span>
+                  </div>
+                )}
+
+                <div className="p-6">
+                  <span className={`inline-block px-3 py-1 rounded-full text-xs font-medium border mb-3 ${categoryColors[post.category] || 'bg-stone-500/20 text-stone-400 border-stone-500/30'}`}>
+                    {post.category}
+                  </span>
+                  <h3 className="text-lg font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors line-clamp-2">
+                    {post.title}
+                  </h3>
+                  <p className="text-stone-400 text-sm mb-4 line-clamp-2">
+                    {post.metaDescription}
+                  </p>
+                  <div className="flex items-center gap-2 text-emerald-400 text-sm font-medium">
+                    Read Article
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </div>
                 </div>
               </Link>
             ))}
