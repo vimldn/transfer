@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 
 import { useState, useEffect } from 'react'
 import { AlertTriangle, CheckCircle2, Clock, RefreshCw, Wifi, MessageSquare } from 'lucide-react'
