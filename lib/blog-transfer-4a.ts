@@ -171,7 +171,7 @@ export const blogTransfer4A: BlogPost[] = [
 
 <p>For the most current official fee schedule, always check the <b>Safaricom M-Pesa terms and conditions</b> page or dial *334# and navigate to "My Account → Transaction Costs."</p>
 
-<h2>Frequently Asked Questions</h2>
+<h2>Related Tools on transfer.co.ke</h2><ul><li><a href="/mpesa-calculator" style="color:#f59e0b">M-Pesa Fee Calculator</a></li><li><a href="/paybill-directory" style="color:#f59e0b">Paybill Directory</a></li><li><a href="/ussd-codes" style="color:#f59e0b">M-Pesa USSD Codes</a></li></ul><h2>Frequently Asked Questions</h2>
 
 <h3>Is it free to receive money on M-Pesa?</h3>
 <p>Yes — M-Pesa does not charge the recipient any fee. Only the sender pays the transaction fee.</p>
@@ -509,7 +509,7 @@ export const blogTransfer4A: BlogPost[] = [
 
 <p>Understanding this framework will save you money, time, and stress on large transactions. M-Pesa is extraordinary for what it was designed for — everyday mobile payments. But for large-value transfers, Kenya's banking infrastructure via RTGS and EFT is the right tool for the job.</p>
 
-<h2>Frequently Asked Questions</h2>
+<h2>Related Tools on transfer.co.ke</h2><ul><li><a href="/mpesa-calculator" style="color:#f59e0b">M-Pesa Fee Calculator</a></li><li><a href="/ussd-codes" style="color:#f59e0b">USSD Codes for Both Networks</a></li></ul><h2>Related Tools on transfer.co.ke</h2><ul><li><a href="/mpesa-calculator" style="color:#f59e0b">M-Pesa Fee Calculator</a></li><li><a href="/mpesa-to-bank" style="color:#f59e0b">M-Pesa to Bank Transfer Guide</a></li></ul><h2>Frequently Asked Questions</h2>
 
 <h3>Can I receive RTGS into my M-Pesa wallet?</h3>
 <p>No — RTGS settles only between bank accounts. To receive an RTGS payment, the recipient needs a bank account. They can then transfer the funds to M-Pesa via Paybill if needed.</p>
@@ -703,7 +703,7 @@ export const blogTransfer4A: BlogPost[] = [
 <li><b>Never use:</b> Western Union or M-Pesa Global for Kenya transfers — consistently worst value</li>
 </ul>
 
-<h2>Frequently Asked Questions</h2>
+<h2>Related Tools on transfer.co.ke</h2><ul><li><a href="/remittance" style="color:#f59e0b">Remittance Comparison Tool</a></li><li><a href="/send-money-to-kenya" style="color:#f59e0b">Send Money to Kenya — By Country</a></li><li><a href="/mpesa-calculator" style="color:#f59e0b">M-Pesa Fee Calculator</a></li></ul><h2>Frequently Asked Questions</h2>
 
 <h3>Is WorldRemit cheaper than Wise for sending to Kenya?</h3>
 <p>Almost never. WorldRemit's exchange rate margin of 1.5–2.5% typically makes it more expensive than Wise on a total-cost basis despite WorldRemit's lower headline fee. For amounts above $200, Wise delivers more KES to the recipient in virtually every comparison.</p>

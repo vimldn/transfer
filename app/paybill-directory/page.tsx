@@ -119,6 +119,41 @@ export default function PaybillDirectoryPage() {
           Paybill numbers are verified at time of publication but may change. Always confirm with
           the organisation before large transactions.
         </p>
+      {/* Related tools */}
+      <section className="mt-14 mb-2 max-w-4xl mx-auto px-4">
+        <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-4">Related tools</h2>
+        <div className="grid sm:grid-cols-2 gap-3">
+          <Link href="/mpesa-calculator" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+            <span className="text-xl shrink-0">🧮</span>
+            <div>
+              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">M-Pesa Fee Calculator</p>
+              <p className="text-stone-500 text-xs mt-0.5">Calculate fees before paying</p>
+            </div>
+          </Link>
+          <Link href="/ussd-codes" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+            <span className="text-xl shrink-0">📱</span>
+            <div>
+              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">USSD Codes</p>
+              <p className="text-stone-500 text-xs mt-0.5">Shortcodes for every M-Pesa action</p>
+            </div>
+          </Link>
+          <Link href="/mpesa-status" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+            <span className="text-xl shrink-0">📡</span>
+            <div>
+              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">M-Pesa System Status</p>
+              <p className="text-stone-500 text-xs mt-0.5">Check if M-Pesa is currently down</p>
+            </div>
+          </Link>
+          <Link href="/mpesa-to-bank" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+            <span className="text-xl shrink-0">🏦</span>
+            <div>
+              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">M-Pesa to Bank</p>
+              <p className="text-stone-500 text-xs mt-0.5">Transfer to your bank account</p>
+            </div>
+          </Link>
+        </div>
+      </section>
+
       </div>
     </div>
   )

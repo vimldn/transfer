@@ -126,6 +126,41 @@ export default function RemittanceHub() {
           </ul>
         </div>
 
+      {/* Related tools */}
+      <section className="mt-14 mb-2 max-w-4xl mx-auto px-4">
+        <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-4">Related tools</h2>
+        <div className="grid sm:grid-cols-2 gap-3">
+          <Link href="/remittance" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+            <span className="text-xl shrink-0">📊</span>
+            <div>
+              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">Remittance Comparison</p>
+              <p className="text-stone-500 text-xs mt-0.5">Side-by-side provider comparison</p>
+            </div>
+          </Link>
+          <Link href="/mpesa-calculator" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+            <span className="text-xl shrink-0">🧮</span>
+            <div>
+              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">M-Pesa Fee Calculator</p>
+              <p className="text-stone-500 text-xs mt-0.5">Calculate fees once money arrives</p>
+            </div>
+          </Link>
+          <Link href="/mpesa-to-bank" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+            <span className="text-xl shrink-0">🏦</span>
+            <div>
+              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">M-Pesa to Bank</p>
+              <p className="text-stone-500 text-xs mt-0.5">Move received funds to your account</p>
+            </div>
+          </Link>
+          <Link href="/paybill-directory" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+            <span className="text-xl shrink-0">📋</span>
+            <div>
+              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">Paybill Directory</p>
+              <p className="text-stone-500 text-xs mt-0.5">Pay bills directly on arrival</p>
+            </div>
+          </Link>
+        </div>
+      </section>
+
       </div>
     </div>
   )

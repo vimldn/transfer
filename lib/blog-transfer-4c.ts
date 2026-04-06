@@ -176,7 +176,7 @@ export const blogTransfer4C: BlogPost[] = [
 <li><b>Respond promptly to Safaricom verification calls.</b> The KYC team may call your registered number to confirm details — missing this call adds 1–2 days.</li>
 </ul>
 
-<h2>Frequently Asked Questions</h2>
+<h2>Related Tools on transfer.co.ke</h2><ul><li><a href="/paybill-directory" style="color:#f59e0b">Paybill Directory</a></li><li><a href="/mpesa-calculator" style="color:#f59e0b">M-Pesa Fee Calculator</a></li><li><a href="/ussd-codes" style="color:#f59e0b">USSD Codes</a></li></ul><h2>Frequently Asked Questions</h2>
 
 <h3>How much does a Till Number cost?</h3>
 <p>The application itself is free. Safaricom does not charge a setup fee for Till Numbers. You only pay the merchant rate on each transaction received.</p>
@@ -395,7 +395,7 @@ export const blogTransfer4C: BlogPost[] = [
 <li>Are there any prohibited business categories that would disqualify me?</li>
 </ul>
 
-<h2>Frequently Asked Questions</h2>
+<h2>Related Tools on transfer.co.ke</h2><ul><li><a href="/mpesa-calculator" style="color:#f59e0b">M-Pesa Fee Calculator</a></li><li><a href="/paybill-directory" style="color:#f59e0b">Paybill Directory</a></li><li><a href="/remittance" style="color:#f59e0b">Accept International Payments — Comparison</a></li></ul><h2>Frequently Asked Questions</h2>
 
 <h3>Which payment gateway has the lowest M-Pesa fees in Kenya?</h3>
 <p>Flutterwave charges 1.4% for M-Pesa transactions — the lowest among major gateways as of 2026. At KES 1,000,000 monthly volume, this saves KES 6,000 per month compared to a 2.0% gateway.</p>
@@ -602,7 +602,7 @@ export const blogTransfer4C: BlogPost[] = [
 <li><b>Open a separate Kenyan bank account</b> for business income — keeps personal and professional money cleanly separated for tax purposes.</li>
 </ol>
 
-<h2>Frequently Asked Questions</h2>
+<h2>Related Tools on transfer.co.ke</h2><ul><li><a href="/remittance" style="color:#f59e0b">Remittance Comparison Tool</a></li><li><a href="/mpesa-calculator" style="color:#f59e0b">M-Pesa Fee Calculator</a></li><li><a href="/send-money-to-kenya" style="color:#f59e0b">Send Money to Kenya Guide</a></li></ul><h2>Frequently Asked Questions</h2>
 
 <h3>Do I need to tell KRA about money I receive from abroad?</h3>
 <p>Yes — all income earned by Kenyan tax residents is subject to Kenyan income tax, regardless of source. You declare it on your annual income tax return via iTax. Failure to declare is a tax compliance risk.</p>

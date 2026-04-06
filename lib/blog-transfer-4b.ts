@@ -177,7 +177,7 @@ export const blogTransfer4B: BlogPost[] = [
 <h3>Send a Test Amount First</h3>
 <p>For a new recipient, send KES 10 first, confirm they received it, then send the full amount. The KES 0 fee on small amounts makes this essentially free insurance.</p>
 
-<h2>Frequently Asked Questions</h2>
+<h2>Related Tools on transfer.co.ke</h2><ul><li><a href="/mpesa-status" style="color:#f59e0b">M-Pesa System Status</a></li><li><a href="/mpesa-calculator" style="color:#f59e0b">M-Pesa Fee Calculator</a></li><li><a href="/ussd-codes" style="color:#f59e0b">M-Pesa USSD Codes</a></li></ul><h2>Frequently Asked Questions</h2>
 
 <h3>How long does M-Pesa reversal take?</h3>
 <p>If the funds have not been withdrawn and the reversal request is made quickly, Safaricom typically resolves within 24–72 hours. Complex cases (recipient refuses, funds withdrawn) can take weeks or may not be resolved without external intervention.</p>
@@ -348,7 +348,7 @@ export const blogTransfer4B: BlogPost[] = [
 <li><b>Avoid Method 4</b> unless you are comfortable with crypto and can manage the risks</li>
 </ol>
 
-<h2>Frequently Asked Questions</h2>
+<h2>Related Tools on transfer.co.ke</h2><ul><li><a href="/remittance" style="color:#f59e0b">Remittance Comparison</a></li><li><a href="/mpesa-calculator" style="color:#f59e0b">M-Pesa Fee Calculator</a></li><li><a href="/mpesa-to-bank" style="color:#f59e0b">M-Pesa to Bank Guide</a></li></ul><h2>Frequently Asked Questions</h2>
 
 <h3>Can I withdraw PayPal directly to M-Pesa?</h3>
 <p>No — PayPal does not offer direct M-Pesa withdrawal for Kenyan accounts as of 2026. You must use one of the four intermediary methods described above.</p>
@@ -529,7 +529,7 @@ export const blogTransfer4B: BlogPost[] = [
 
 <p>For occasional users converting small amounts, practical enforcement risk is currently low. For high-volume traders, consulting a Kenyan tax advisor is strongly recommended.</p>
 
-<h2>Frequently Asked Questions</h2>
+<h2>Related Tools on transfer.co.ke</h2><ul><li><a href="/mpesa-calculator" style="color:#f59e0b">M-Pesa Fee Calculator</a></li><li><a href="/remittance" style="color:#f59e0b">International Transfer Comparison</a></li></ul><h2>Frequently Asked Questions</h2>
 
 <h3>How fast is Binance P2P to M-Pesa?</h3>
 <p>A typical Binance P2P trade completes in 15–45 minutes — from opening the trade to receiving M-Pesa and releasing crypto. Fast traders can complete in under 10 minutes.</p>
@@ -767,7 +767,7 @@ export const blogTransfer4B: BlogPost[] = [
 <h3>Sent Payment to Wrong Paybill</h3>
 <p>Call Safaricom on 100 immediately with your transaction code. Safaricom will contact the receiving business to initiate a refund. Keep the M-Pesa confirmation SMS and note the exact amount, time, and wrong paybill number used.</p>
 
-<h2>Frequently Asked Questions</h2>
+<h2>Related Tools on transfer.co.ke</h2><ul><li><a href="/paybill-directory" style="color:#f59e0b">Paybill Directory</a></li><li><a href="/ussd-codes" style="color:#f59e0b">M-Pesa USSD Codes</a></li><li><a href="/mpesa-calculator" style="color:#f59e0b">M-Pesa Fee Calculator</a></li></ul><h2>Frequently Asked Questions</h2>
 
 <h3>Can I pay KPLC for a meter that is not registered to my name?</h3>
 <p>Yes — you can buy tokens for any meter number regardless of registration. Simply enter the meter number as the account number. This is common for tenants paying landlords' electricity meters.</p>
