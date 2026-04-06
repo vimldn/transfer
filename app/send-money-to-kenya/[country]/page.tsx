@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight, Star, Clock, Zap, CheckCircle2, AlertCircle, Globe } from 'lucide-react'
 import { corridors } from '@/lib/remittance-corridors'
+import FlagIcon from '@/components/FlagIcon'
 
 type Props = { params: { country: string } }
 
@@ -89,7 +90,7 @@ export default function CountryRemittancePage({ params }: Props) {
         {/* Header */}
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-3">
-            <span className="text-4xl">{corridor.flag}</span>
+            <FlagIcon countryCode={corridor.countryCode} size={56} />
             <div>
               <div className="text-stone-500 text-xs mb-1 flex items-center gap-1">
                 <Globe className="w-3 h-3" />
@@ -264,7 +265,7 @@ export default function CountryRemittancePage({ params }: Props) {
                 href={`/send-money-to-kenya/${c.slug}`}
                 className="flex items-center gap-3 bg-white/5 border border-white/10 rounded-xl px-4 py-3 hover:border-purple-500/30 transition-colors group"
               >
-                <span className="text-xl">{c.flag}</span>
+                <FlagIcon countryCode={c.countryCode} size={36} />
                 <span className="text-stone-300 text-sm group-hover:text-white transition-colors flex-1 truncate">
                   {c.country}
                 </span>

@@ -11,6 +11,7 @@ import {
   ArrowLeftRight,
 } from 'lucide-react'
 import { bankBridges } from '@/lib/bank-bridge-data'
+import BankIcon from '@/components/BankIcon'
 
 type Props = { params: { bank: string } }
 
@@ -91,9 +92,7 @@ export default function BankBridgePage({ params }: Props) {
         {/* Header */}
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-4">
-            <div className={`w-12 h-12 bg-gradient-to-br ${bank.color} rounded-xl flex items-center justify-center text-xl`}>
-              {bank.logo}
-            </div>
+            <BankIcon initial={bank.initial} bgColor={bank.bgColor} size="lg" />
             <div>
               <div className="flex items-center gap-2 text-xs text-stone-500 mb-1">
                 <ArrowLeftRight className="w-3 h-3" />
@@ -259,9 +258,7 @@ export default function BankBridgePage({ params }: Props) {
                 href={`/mpesa-to-bank/${b.slug}`}
                 className="flex items-center gap-3 bg-white/5 border border-white/10 rounded-xl px-4 py-3 hover:border-emerald-500/30 transition-colors group"
               >
-                <div className={`w-8 h-8 bg-gradient-to-br ${b.color} rounded-lg flex items-center justify-center text-sm`}>
-                  {b.logo}
-                </div>
+                <BankIcon initial={b.initial} bgColor={b.bgColor} size="sm" />
                 <span className="text-stone-300 text-sm group-hover:text-white transition-colors flex-1">
                   M-Pesa ↔ {b.name}
                 </span>

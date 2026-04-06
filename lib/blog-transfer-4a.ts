@@ -523,4 +523,198 @@ export const blogTransfer4A: BlogPost[] = [
 <h3>What if I make an RTGS to the wrong account?</h3>
 <p>Contact your bank immediately. Your bank will attempt to recall the funds from the recipient's bank. However, if the recipient has withdrawn the money, recovery depends on their cooperation and may require legal action. This is why double-checking recipient details before submitting is essential.</p>`,
   },
+
+  // ── Post 4: WorldRemit vs Remitly vs Wise ───────────────────────────────
+  {
+    id: 111,
+    title: 'The Hidden Costs of Sending Money via WorldRemit vs Remitly vs Wise to Kenya',
+    slug: 'worldremit-vs-remitly-vs-wise-hidden-costs-kenya',
+    metaTitle: 'WorldRemit vs Remitly vs Wise Kenya 2026 | True Cost Comparison',
+    metaDescription: 'Beyond the headline fee — a full breakdown of the hidden costs when sending money to Kenya via WorldRemit, Remitly, and Wise. Exchange rate margins, delivery speed, and who really wins on total value.',
+    category: 'Transfer',
+    calculator: 'remittance',
+    relatedSlugs: [
+      'mpesa-charges-2026-complete-fee-guide',
+      'mpesa-vs-airtel-money-which-is-cheaper',
+      'rtgs-vs-mpesa-large-amounts',
+    ],
+    featuredImage: null,
+    content: `<p>Every remittance provider advertises its headline fee. WorldRemit says "send for just $1.99." Remitly promises "low fees." Wise claims "the real exchange rate." But the true cost of sending money to Kenya is almost never the number shown on the landing page — it is the combination of the transfer fee plus the exchange rate margin baked into the conversion. This guide tears apart the pricing of all three major providers to show you exactly what your recipient gets per $100, £100, or €100 you send, and who genuinely wins on total value.</p>
+
+<h2>Why the Headline Fee Is Misleading</h2>
+
+<p>Here is how remittance providers make money:</p>
+<ol>
+<li><b>Transfer fee</b> — the fixed or percentage fee shown upfront (e.g., $1.99, $3.99)</li>
+<li><b>Exchange rate margin</b> — the difference between the mid-market rate (the real rate shown on Google) and the rate the provider actually gives you. This is often invisible but frequently larger than the headline fee.</li>
+</ol>
+
+<p>A provider advertising "zero fees" still profits by giving you a worse exchange rate than the real market rate. A provider with a $4 fee but mid-market exchange rate can actually deliver more KES to your recipient than a "free" provider with a 3% exchange rate margin.</p>
+
+<p>The only number that matters is: <b>how many KES does my recipient receive per $100 I send?</b></p>
+
+<h2>The Test: $100 from the USA to Kenya M-Pesa</h2>
+
+<p>We use $100 USD → KES as our baseline (mid-market rate: approximately KES 129.50 per $1 as a reference point). All figures below are approximate based on current provider pricing — always check the live rate in each app before sending.</p>
+
+<table>
+<thead><tr><th>Provider</th><th>Transfer Fee</th><th>Exchange Rate Given</th><th>Rate Margin</th><th>KES Recipient Gets</th><th>True Cost</th></tr></thead>
+<tbody>
+<tr><td>Wise</td><td>~$1.10</td><td>Mid-market (no markup)</td><td>0%</td><td>~KES 12,840</td><td>$1.10 (0.85%)</td></tr>
+<tr><td>Sendwave</td><td>$0</td><td>~0.8% below mid-market</td><td>0.8%</td><td>~KES 12,750</td><td>~$1.04 (1.04%)</td></tr>
+<tr><td>Remitly (Economy)</td><td>$0</td><td>~1.5% below mid-market</td><td>1.5%</td><td>~KES 12,610</td><td>~$1.94 (1.94%)</td></tr>
+<tr><td>Remitly (Express)</td><td>$3.99</td><td>~1.0% below mid-market</td><td>1.0%</td><td>~KES 12,480</td><td>~$5.29 (5.29%)</td></tr>
+<tr><td>WorldRemit</td><td>$1.99</td><td>~1.8% below mid-market</td><td>1.8%</td><td>~KES 12,440</td><td>~$4.31 (4.31%)</td></tr>
+<tr><td>M-Pesa Global</td><td>$0</td><td>~3.5% below mid-market</td><td>3.5%</td><td>~KES 12,010</td><td>~$4.53 (4.53%)</td></tr>
+<tr><td>Western Union</td><td>$5.00</td><td>~4% below mid-market</td><td>4%</td><td>~KES 11,700</td><td>~$10.15 (10.15%)</td></tr>
+</tbody>
+</table>
+
+<p><b>Reading this table:</b> Wise costs $1.10 in fees but uses the real exchange rate — your recipient gets the most KES. WorldRemit advertises $1.99 but then applies a 1.8% rate margin, making the true cost $4.31 on a $100 transfer — more than double the headline. Western Union's "simple" $5 fee hides a 4% rate margin, making it by far the most expensive option.</p>
+
+<h2>Deep Dive: Wise</h2>
+
+<h3>How Wise Prices</h3>
+<p>Wise uses the mid-market exchange rate — the same rate shown on Google or XE.com — with no additional markup. Their only revenue is the transfer fee: a small fixed amount plus a percentage (typically 0.4–0.7% of the transfer amount). There is no hidden exchange rate margin. This is why Wise is often the most transparent option despite appearing to have a "fee" while others claim to be "free."</p>
+
+<h3>What Wise Is Great For</h3>
+<ul>
+<li>Bank account delivery to Kenyan banks (Equity, KCB, Co-op, NCBA)</li>
+<li>Large transfers above $500 where exchange rate margin matters significantly</li>
+<li>Senders who want absolute transparency on costs</li>
+<li>Regular monthly transfers where saving $2–5 per transfer adds up to $24–60 annually</li>
+</ul>
+
+<h3>What Wise Is Not Great For</h3>
+<ul>
+<li>Speed — bank transfers take 1–24 hours, sometimes longer</li>
+<li>Cash pickup — Wise does not offer cash pickup in Kenya</li>
+<li>Very small amounts under $20 where the fixed fee becomes a high percentage</li>
+</ul>
+
+<h3>The Hidden Cost in Wise</h3>
+<p>Wise is actually the most transparent of the three — there are minimal hidden costs. The fee shown is the fee charged. The rate shown is the real rate. What you see is what your recipient gets.</p>
+
+<h2>Deep Dive: Remitly</h2>
+
+<h3>How Remitly Prices</h3>
+<p>Remitly operates two tracks: <b>Express</b> (fast, higher fee, slightly better rate) and <b>Economy</b> (3–5 business days, zero or low fee, but worse exchange rate). The Exchange rate margin is where Remitly makes most of its money on the Economy track — it is typically 1.5–2% below mid-market.</p>
+
+<h3>The Express vs Economy Trap</h3>
+<p>Remitly's marketing heavily promotes the Economy option with "zero fees." But zero fees with a 1.5% rate margin on a $300 transfer costs you $4.50 in hidden exchange rate loss. The Express option at $3.99 fee with a smaller rate margin of ~1% costs $3.99 + $3 rate loss = $6.99 total. Economy at $4.50 total hidden cost is actually cheaper — but only if you can wait 3–5 days.</p>
+
+<table>
+<thead><tr><th>Remitly Option</th><th>Fee</th><th>Rate Margin</th><th>True Cost on $300</th><th>Speed</th></tr></thead>
+<tbody>
+<tr><td>Economy</td><td>$0</td><td>~1.5%</td><td>~$4.50</td><td>3–5 days</td></tr>
+<tr><td>Express</td><td>$3.99</td><td>~1.0%</td><td>~$6.99</td><td>Minutes</td></tr>
+</tbody>
+</table>
+
+<h3>What Remitly Is Great For</h3>
+<ul>
+<li>First-time users — Remitly frequently offers promotional rates (first transfer free or heavily discounted)</li>
+<li>M-Pesa delivery when speed is not critical (Economy track)</li>
+<li>Users who do not mind the 3–5 day wait for better value</li>
+</ul>
+
+<h3>The Hidden Costs in Remitly</h3>
+<ul>
+<li><b>Exchange rate margin</b> — the most significant hidden cost, particularly on Economy</li>
+<li><b>Promotional bait-and-switch</b> — first transfers at excellent promotional rates, subsequent transfers at standard (worse) rates. Always compare rates after your first transfer</li>
+<li><b>Weekend rate widening</b> — exchange rate margins often widen slightly on weekends when currency markets are closed</li>
+<li><b>Card funding surcharge</b> — funding via debit card sometimes incurs an extra 1.5–2% fee. Always fund via bank transfer to avoid this</li>
+</ul>
+
+<h2>Deep Dive: WorldRemit</h2>
+
+<h3>How WorldRemit Prices</h3>
+<p>WorldRemit charges a fixed transfer fee (typically $1.99–$4.99 depending on destination and amount) plus an exchange rate margin of approximately 1.5–2.5% below mid-market for Kenya. Unlike Remitly's Economy track, WorldRemit does not offer a "zero fee" option — you always pay the fixed fee plus absorb the rate margin.</p>
+
+<h3>What WorldRemit Is Great For</h3>
+<ul>
+<li>Airtime top-up — WorldRemit has excellent Safaricom airtime top-up functionality, often at competitive rates</li>
+<li>Cash pickup — strong agent network in Kenya for recipients without M-Pesa or bank accounts</li>
+<li>Speed — M-Pesa delivery is typically within minutes</li>
+<li>Corridor variety — useful if you send to multiple African countries, not just Kenya</li>
+</ul>
+
+<h3>The Hidden Costs in WorldRemit</h3>
+<ul>
+<li><b>Exchange rate margin</b> — at 1.5–2.5%, this is WorldRemit's primary profit mechanism. On a $500 transfer, you lose $7.50–$12.50 in the exchange rate before the $1.99 fee is even counted</li>
+<li><b>Amount-tiered fees</b> — the $1.99 fee applies to smaller amounts. Larger transfers may attract $3.99–$4.99 fees, making the total cost uncompetitive</li>
+<li><b>Cash pickup premium</b> — cash pickup delivery is sometimes offered at a worse exchange rate than M-Pesa delivery</li>
+</ul>
+
+<h2>The Three Scenarios: Who Wins?</h2>
+
+<h3>Scenario A: Sending $100 urgently to M-Pesa</h3>
+<table>
+<thead><tr><th>Provider</th><th>Total Cost</th><th>Speed</th><th>Winner?</th></tr></thead>
+<tbody>
+<tr><td>Sendwave</td><td>~$1.04</td><td>Instant</td><td>✓ Best</td></tr>
+<tr><td>WorldRemit</td><td>~$4.31</td><td>Minutes</td><td>–</td></tr>
+<tr><td>Remitly Express</td><td>~$5.29</td><td>Minutes</td><td>–</td></tr>
+<tr><td>Wise</td><td>~$1.10</td><td>1–24 hrs</td><td>✓ Best if not urgent</td></tr>
+</tbody>
+</table>
+
+<h3>Scenario B: Sending $500 to a Kenyan bank account</h3>
+<table>
+<thead><tr><th>Provider</th><th>Total Cost</th><th>KES Delivered</th><th>Winner?</th></tr></thead>
+<tbody>
+<tr><td>Wise</td><td>~$3.75</td><td>~KES 63,900</td><td>✓ Best</td></tr>
+<tr><td>Sendwave</td><td>~$5.20</td><td>~KES 63,700</td><td>Close second</td></tr>
+<tr><td>Remitly Economy</td><td>~$9.75</td><td>~KES 63,025</td><td>–</td></tr>
+<tr><td>WorldRemit</td><td>~$13.99</td><td>~KES 62,200</td><td>–</td></tr>
+</tbody>
+</table>
+
+<h3>Scenario C: Sending $50 with cash pickup needed</h3>
+<table>
+<thead><tr><th>Provider</th><th>Total Cost</th><th>Cash Pickup?</th><th>Winner?</th></tr></thead>
+<tbody>
+<tr><td>WorldRemit</td><td>~$2.99</td><td>Yes</td><td>✓ Best for cash</td></tr>
+<tr><td>Remitly</td><td>~$3.99</td><td>Yes (some areas)</td><td>Second</td></tr>
+<tr><td>Wise</td><td>~$1.10</td><td>No</td><td>N/A for cash</td></tr>
+</tbody>
+</table>
+
+<h2>The Rate Alert Strategy</h2>
+
+<p>Exchange rate margins are not fixed — they fluctuate based on currency market conditions. Both Wise and Remitly offer rate alert features that notify you when the KES/USD rate reaches a target level. Setting a rate alert costs nothing and can save you $3–8 per $100 transferred when the rate moves in your favour.</p>
+
+<p>The KES/USD rate typically moves most during:</p>
+<ul>
+<li>Kenyan economic announcements (budget, CBK rate decisions)</li>
+<li>US Federal Reserve decisions</li>
+<li>Period of KES weakness (often around government debt repayment cycles)</li>
+</ul>
+
+<h2>Practical Recommendation: The Optimal Stack</h2>
+
+<p>Rather than choosing one provider for all transfers, the smartest approach is a tiered strategy:</p>
+
+<ul>
+<li><b>For urgent M-Pesa transfers up to $300:</b> Sendwave — zero fees, instant, excellent rate</li>
+<li><b>For bank transfers and large amounts above $300:</b> Wise — mid-market rate, best total value</li>
+<li><b>For cash pickup or airtime:</b> WorldRemit — best cash agent network in Kenya</li>
+<li><b>For first-time or occasional sending:</b> Remitly — promotional first-transfer rates often beat all others</li>
+<li><b>Never use:</b> Western Union or M-Pesa Global for Kenya transfers — consistently worst value</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is WorldRemit cheaper than Wise for sending to Kenya?</h3>
+<p>Almost never. WorldRemit's exchange rate margin of 1.5–2.5% typically makes it more expensive than Wise on a total-cost basis despite WorldRemit's lower headline fee. For amounts above $200, Wise delivers more KES to the recipient in virtually every comparison.</p>
+
+<h3>Does Remitly really have zero fees?</h3>
+<p>Remitly's Economy track has zero transfer fees, but this does not mean zero cost. The exchange rate margin of approximately 1.5% on Economy transfers is a real cost that reduces what your recipient receives. "Zero fees" is a marketing term — the cost is just hidden in the exchange rate.</p>
+
+<h3>How do I find the mid-market exchange rate to compare?</h3>
+<p>Search "USD to KES" on Google, or use xe.com or wise.com/gb/currency-converter. The rate shown there is the mid-market rate — the real rate with no markup. Compare it to what each provider shows you to calculate the hidden margin.</p>
+
+<h3>Do exchange rate margins change throughout the day?</h3>
+<p>Yes — most providers adjust their exchange rate margins in real time based on currency market movements. Rates are typically tightest during business hours on weekdays when currency markets are most liquid. Sending on a Saturday night may get you a slightly worse rate than sending on a Tuesday morning.</p>`,
+  },
 ]

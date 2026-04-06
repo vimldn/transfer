@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowRight, ArrowLeftRight, Smartphone, Building2 } from 'lucide-react'
 import { bankBridges } from '@/lib/bank-bridge-data'
+import BankIcon from '@/components/BankIcon'
 
 export const metadata: Metadata = {
   title: 'M-Pesa to Bank Transfer Guide Kenya 2026 | All Banks',
@@ -82,9 +83,7 @@ export default function MpesaToBankHub() {
             >
               <div className="flex items-start justify-between">
                 <div className="flex items-center gap-3">
-                  <div className={`w-10 h-10 bg-gradient-to-br ${bank.color} rounded-xl flex items-center justify-center text-lg`}>
-                    {bank.logo}
-                  </div>
+                  <BankIcon initial={bank.initial} bgColor={bank.bgColor} />
                   <div>
                     <h3 className="text-white font-bold text-sm group-hover:text-emerald-400 transition-colors">
                       {bank.name}

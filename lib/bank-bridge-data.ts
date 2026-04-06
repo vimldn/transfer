@@ -5,7 +5,8 @@ export type BankBridge = {
   paybill: string
   ussdCode: string
   bankToMpesaUssd: string
-  logo: string // emoji placeholder
+  initial: string
+  bgColor: string  // solid tailwind bg class for BankIcon // first letter of bank name
   color: string // tailwind gradient
   appName: string
   customerCare: string
@@ -38,7 +39,8 @@ export const bankBridges: BankBridge[] = [
     paybill: '247247',
     ussdCode: '*247#',
     bankToMpesaUssd: '*247#',
-    logo: '🟥',
+    initial: 'E',
+    bgColor: 'bg-red-600',
     color: 'from-red-600 to-red-700',
     appName: 'Equity Mobile / Eazzy Banking',
     customerCare: '0763 000 000',
@@ -100,7 +102,8 @@ export const bankBridges: BankBridge[] = [
     paybill: '522522',
     ussdCode: '*522#',
     bankToMpesaUssd: '*522#',
-    logo: '🟦',
+    initial: 'K',
+    bgColor: 'bg-blue-700',
     color: 'from-blue-700 to-blue-800',
     appName: 'KCB Mobile Banking App',
     customerCare: '0711 087 000',
@@ -158,7 +161,8 @@ export const bankBridges: BankBridge[] = [
     paybill: '400200',
     ussdCode: '*667#',
     bankToMpesaUssd: '*667#',
-    logo: '🟩',
+    initial: 'C',
+    bgColor: 'bg-green-700',
     color: 'from-green-700 to-green-800',
     appName: 'MCo-opCash',
     customerCare: '0703 027 000',
@@ -216,7 +220,8 @@ export const bankBridges: BankBridge[] = [
     paybill: '880100',
     ussdCode: '*488#',
     bankToMpesaUssd: '*488#',
-    logo: '🟪',
+    initial: 'N',
+    bgColor: 'bg-purple-700',
     color: 'from-purple-700 to-purple-800',
     appName: 'NCBA Loop / NCBA Mobile',
     customerCare: '0711 056 444',
@@ -273,7 +278,8 @@ export const bankBridges: BankBridge[] = [
     paybill: '303030',
     ussdCode: '*390#',
     bankToMpesaUssd: '*390#',
-    logo: '🟥',
+    initial: 'A',
+    bgColor: 'bg-red-800',
     color: 'from-red-800 to-rose-900',
     appName: 'Absa Kenya Mobile Banking',
     customerCare: '0703 710 000',
@@ -329,7 +335,8 @@ export const bankBridges: BankBridge[] = [
     paybill: '516600',
     ussdCode: '*385#',
     bankToMpesaUssd: '*385#',
-    logo: '🔷',
+    initial: 'D',
+    bgColor: 'bg-sky-700',
     color: 'from-sky-700 to-blue-800',
     appName: 'DTB Mobile Banking',
     customerCare: '0800 723 200',
@@ -383,7 +390,8 @@ export const bankBridges: BankBridge[] = [
     paybill: '222111',
     ussdCode: '*325#',
     bankToMpesaUssd: '*325#',
-    logo: '🟧',
+    initial: 'F',
+    bgColor: 'bg-orange-600',
     color: 'from-orange-600 to-amber-700',
     appName: 'Family Bank Mobile',
     customerCare: '0703 095 445',
@@ -438,7 +446,8 @@ export const bankBridges: BankBridge[] = [
     paybill: '600100',
     ussdCode: '*290#',
     bankToMpesaUssd: '*290#',
-    logo: '🔵',
+    initial: 'S',
+    bgColor: 'bg-blue-800',
     color: 'from-blue-800 to-indigo-900',
     appName: 'Stanbic Bank Kenya App',
     customerCare: '0800 720 150',

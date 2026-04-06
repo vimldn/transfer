@@ -16,7 +16,6 @@ export type Corridor = {
   slug: string
   country: string
   countryCode: string
-  flag: string
   currency: string
   currencyCode: string
   currencySymbol: string
@@ -38,7 +37,6 @@ export const corridors: Corridor[] = [
     slug: 'uk',
     country: 'United Kingdom',
     countryCode: 'GB',
-    flag: '🇬🇧',
     currency: 'British Pound',
     currencyCode: 'GBP',
     currencySymbol: '£',
@@ -163,7 +161,6 @@ export const corridors: Corridor[] = [
     slug: 'usa',
     country: 'United States',
     countryCode: 'US',
-    flag: '🇺🇸',
     currency: 'US Dollar',
     currencyCode: 'USD',
     currencySymbol: '$',
@@ -283,7 +280,6 @@ export const corridors: Corridor[] = [
     slug: 'uae',
     country: 'United Arab Emirates',
     countryCode: 'AE',
-    flag: '🇦🇪',
     currency: 'UAE Dirham',
     currencyCode: 'AED',
     currencySymbol: 'AED',
@@ -402,7 +398,6 @@ export const corridors: Corridor[] = [
     slug: 'germany',
     country: 'Germany',
     countryCode: 'DE',
-    flag: '🇩🇪',
     currency: 'Euro',
     currencyCode: 'EUR',
     currencySymbol: '€',
@@ -509,7 +504,6 @@ export const corridors: Corridor[] = [
     slug: 'canada',
     country: 'Canada',
     countryCode: 'CA',
-    flag: '🇨🇦',
     currency: 'Canadian Dollar',
     currencyCode: 'CAD',
     currencySymbol: 'CA$',

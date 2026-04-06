@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Globe, ArrowRight, TrendingUp, Star } from 'lucide-react'
 import { corridors } from '@/lib/remittance-corridors'
+import FlagIcon from '@/components/FlagIcon'
 
 export const metadata: Metadata = {
   title: 'Best Ways to Send Money to Kenya 2026 | UK, USA, UAE, Germany',
@@ -71,7 +72,7 @@ export default function RemittanceHub() {
               >
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex items-center gap-3">
-                    <span className="text-3xl">{corridor.flag}</span>
+                    <FlagIcon countryCode={corridor.countryCode} size={48} />
                     <div>
                       <h3 className="text-white font-bold group-hover:text-purple-400 transition-colors">
                         {corridor.country}
